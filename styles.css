@@ -107,11 +107,11 @@ main {
   width: 100%;
 }
 .social-links li {
-  margin-top: var(--spacing-100);
+  margin-block-start: var(--spacing-100);
 }
 .social-links a {
   display: block;
-  padding: 0.8em 1em;
+  padding: clamp(0.7em, 2vw, 1em);
   font-style: var(--fw-semibold);
   text-decoration: none;
   text-align: center;
