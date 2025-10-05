@@ -61,7 +61,8 @@ main {
   padding: var(--spacing-responsive);
 }
 .card-profile {
-  max-width: min(23rem, 90vw);
+  width: min(23rem, 90vw);
+  max-width: 25rem;
   padding: var(--spacing-300);
 
   background-color: var(--clr-grey-800);
